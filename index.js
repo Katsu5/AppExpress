@@ -12,7 +12,7 @@ app.use(express.json());
 
 // Ruta de prueba
 app.get('/', (req, res) => {
-  res.send('¡Hola, esta es mi primera API con Express!');
+  res.send('¡Hola, esta es mi primera API usando Express!');
 });
 
 // Ruta de ejemplo con parámetro
